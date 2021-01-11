@@ -1,0 +1,7 @@
+var signUp = [{
+    "usrename": "Sherrie",
+    last_name: "McGarrie",
+    email: "smcgarrie0@google.fr",
+    gender: "Female",
+    salary: 983
+}]

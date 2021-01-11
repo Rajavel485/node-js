@@ -7,11 +7,11 @@ for (var result of employees) {
   var employeesFirst = result.first_name;
   arr.push(employeesFirst);
 }
-app.post("/employees", function(req, res) {
+app.get("/employees", function(req, res) {
   res.json(employees);
   console.log("displayed");
 });
-app.post("/employees/first_name", function(req, res) {
+app.get("/employees/first_name", function(req, res) {
   res.json({ employeesFirst: arr });
   console.log(arr);
 });
